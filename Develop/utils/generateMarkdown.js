@@ -1,27 +1,27 @@
 function generateMarkdown(data) {
   return `
 
-## Name:
-${data.answers.name}
-![github avatar img](${data.ghResp.avatar_url} "My Image");
+## Name: 
+${data.answers.githubName}
+![github avatar img](${data.ghResp.avatar_url} "My Image")
 
 ## Title 
-${data.answers.title}
+ ${data.answers.title}
 
 ## Project Description
  ${data.answers.description}
 
- ## Installation
+## Installation
  ${data.answers.installation}
 
- ## Usage
+## Usage
  ${data.answers.usage}
 
- ## License
-${data.answers.license}
+## License
+ ${data.answers.license}
 
 ## Contribution
-${data.answers.contributing}
+ ${data.answers.contributing}
 
 `;
 }
