@@ -21,6 +21,11 @@ const questions = [
   },
   {
     type: "input",
+    name: "tableOfContents",
+    message: "List the table of contents.",
+  },
+  {
+    type: "input",
     name: "installation",
     message: "How is this project installed?",
   },
@@ -38,6 +43,16 @@ const questions = [
     type: "input",
     name: "contributing",
     message: "How can people contribute to the project?",
+  },
+  {
+    type: "input",
+    name: "tests",
+    message: "What tests were done on this project?",
+  },
+  {
+    type: "input",
+    name: "questions",
+    message: "Are there any common questions or faqs?",
   },
 ];
 
